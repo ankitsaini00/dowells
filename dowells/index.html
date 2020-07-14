@@ -76,7 +76,7 @@
         <!-- TOP BAR -->
         <div class="glax_tm_topbar_wrap">
             <div class="container">
-                <div class="inner_wrap wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                <div id="top_bar" class="inner_wrap wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
                     <div class="left_part_wrap wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
                         <div class="share_wrap">
                             <ul>
@@ -117,7 +117,7 @@
             <!-- navbar -->
             <div class="glax_tm_header_wrap" data-style="transparent" data-position="absolute">
                 <div class="container">
-                    <div class="header_inner_wrap wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                    <div id="navigation" class="header_inner_wrap wow fadeInDown" style="visibility: visible; animation-name: fadeInDown; animation-delay: 2s;">
                         <div class="menu_wrap" style="float: right;">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
@@ -1135,6 +1135,8 @@
     <script>
         $(document).ready(function(){
             new WOW().init();
+            $('#top_bar').css('animation-delay','0.6s');
+            $('#navigation').css('animation-delay','0.6s');
             });
         
     </script>
