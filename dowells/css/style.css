@@ -3389,13 +3389,13 @@ font-size: 36px;
 	display: block;
     width: 29px;
     height: 29px;
-    background-color: #45a2df;
+    background-color: #ff0909;
     position: absolute;
     left: 11px;
     top: 0px;
     border-radius: 2px;
 }
-.glax_tm_totop .shape:after{
+/* .glax_tm_totop .shape:after{
 	width: 0px;
     height: 0px;
     position: absolute;
@@ -3405,7 +3405,7 @@ font-size: 36px;
     top: 7px;
     left: 10px;
 	z-index: 2;
-}
+} */
 .glax_tm_wrapper_all[data-border="none"] .glax_tm_totop.opened{bottom: 10px;}
 .glax_tm_totop .name{
 	position: absolute;
@@ -5645,7 +5645,7 @@ font-size: 36px;
 	background-repeat: no-repeat;
 	background-position: center;
 }
-.glax_tm_main_contact_wrap .office_list .row .col-sm-4:nth-child(1) .image_wrap .image{background-image: url(../img/contact/1.jpg);}
+.glax_tm_main_contact_wrap .office_list .row .col-sm-4:nth-child(1) .image_wrap .image{background-image:  url(../img/award/1.jpg) !important;}
 .glax_tm_main_contact_wrap .office_list .row .col-sm-4:nth-child(2) .image_wrap .image{background-image: url(../img/contact/2.jpg);}
 .glax_tm_main_contact_wrap .office_list .row .col-sm-4:nth-child(3) .image_wrap .image{background-image: url(../img/contact/3.jpg);}
 .glax_tm_main_contact_wrap .office_list .row .col-sm-4 .definitions_wrap{
